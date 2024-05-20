@@ -81,7 +81,7 @@ func WriteTlog(ctx context.Context, message, signature []byte, cert *x509.Certif
 	return cosign.TLogUpload(ctx, client, signature, checkSum, pem)
 }
 
-// Get a cert from a key
+// Extract the certificate
 func GetCert(priv crypto.Signer) (*fulcioapi.CertificateResponse, error) {
 	pubBytes, err := x509.MarshalPKIXPublicKey(priv.Public())
 	if err != nil {

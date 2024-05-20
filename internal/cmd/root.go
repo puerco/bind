@@ -12,10 +12,26 @@ import (
 const appname = "bind"
 
 var rootCmd = &cobra.Command{
-	Short:             "A utility to work with sigstore bundles",
+	Short: fmt.Sprintf("%s: a utility to work with sigstore bundles", appname),
+	Long: fmt.Sprintf(`%s: a utility to work with sigstore bundles
+	
+bind is a utility that makes it easy to work with attestations and sigstore bundles.
+It can create new bundles by "binding" an attestation and signing it. It can verify
+existing bundles, extract data from them inspect their contents.
+
+`, appname),
 	Use:               appname,
 	SilenceUsage:      false,
 	PersistentPreRunE: initLogging,
+	Example: fmt.Sprintf(`
+Create a new bundle by signing and bundling an attestation and its verification
+material:
+
+	%s attestation --out=bundle.json att.intoto.json
+
+Inspect the new bundle:
+	%s inspect bundle.json
+	`, appname, appname),
 }
 
 type commandLineOptions struct {
@@ -32,6 +48,9 @@ func init() {
 		fmt.Sprintf("the logging verbosity, either %s", log.LevelNames()),
 	)
 	addAttestation(rootCmd)
+	addExtract(rootCmd)
+	addInspect(rootCmd)
+	addVerify(rootCmd)
 	rootCmd.AddCommand(version.WithFont("doom"))
 }
 

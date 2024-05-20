@@ -28,14 +28,15 @@ func (o *attestationOptions) AddFlags(cmd *cobra.Command) {
 		true,
 		"bind an unsigned in-toto attestation",
 	)
+
 }
 
 func addAttestation(parentCmd *cobra.Command) {
 	opts := attestationOptions{}
 	attCmd := &cobra.Command{
-		Short:             fmt.Sprintf("%s bundle: generates a trusty attestation", appname),
+		Short:             fmt.Sprintf("%s attestation: generates a trusty attestation", appname),
 		Use:               "attestation",
-		Example:           fmt.Sprintf("%s bundle repository/path/ ", appname),
+		Example:           fmt.Sprintf("%s attestation repository/path/ ", appname),
 		SilenceUsage:      false,
 		SilenceErrors:     true,
 		PersistentPreRunE: initLogging,
