@@ -34,7 +34,7 @@ func (o *attestationOptions) AddFlags(cmd *cobra.Command) {
 func addAttestation(parentCmd *cobra.Command) {
 	opts := attestationOptions{}
 	attCmd := &cobra.Command{
-		Short:             fmt.Sprintf("%s attestation: generates a trusty attestation", appname),
+		Short:             fmt.Sprintf("%s attestation: create a signed bundle from an attestation", appname),
 		Use:               "attestation",
 		Example:           fmt.Sprintf("%s attestation repository/path/ ", appname),
 		SilenceUsage:      false,

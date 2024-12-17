@@ -1,0 +1,4235 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicateType": "http://trustypkg.dev",
+  "subject": [],
+  "predicate": {
+    "metadata": {
+      "date": "2024-05-04T14:33:32.064300347-06:00",
+      "package": {
+        "package": "",
+        "version": ""
+      }
+    },
+    "packages": [
+      {
+        "package": "cloud.google.com/go/compute",
+        "version": "v1.25.0",
+        "identifiers": {
+          "purl": "pkg:golang/cloud.google.com/go/compute@v1.25.0"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 8,
+          "activity_user": 6.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "cloud.google.com/go/compute/metadata",
+        "version": "v0.2.3",
+        "identifiers": {
+          "purl": "pkg:golang/cloud.google.com/go/compute@v0.2.3#metadata"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 8,
+          "activity_user": 6.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "dario.cat/mergo",
+        "version": "v1.0.0",
+        "identifiers": {
+          "purl": "pkg:golang/dario.cat/mergo@v1.0.0"
+        },
+        "score": 5.9,
+        "details": {
+          "activity": 5.9,
+          "activity_repo": 5.3,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/AliyunContainerService/ack-ram-tool/pkg/credentials/alibabacloudsdkgo/helper",
+        "version": "v0.2.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/AliyunContainerService/ack-ram-tool@v0.2.0#pkg/credentials/alibabacloudsdkgo/helper"
+        },
+        "score": 4.4,
+        "details": {
+          "activity": 4.4,
+          "activity_repo": 2.3,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/Azure/azure-sdk-for-go",
+        "version": "v68.0.0+incompatible",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Azure/azure-sdk-for-go@v68.0.0%2Bincompatible"
+        },
+        "score": 0,
+        "details": null
+      },
+      {
+        "package": "github.com/Azure/go-autorest",
+        "version": "v14.2.0+incompatible",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Azure/go-autorest@v14.2.0%2Bincompatible"
+        },
+        "score": 0,
+        "details": null
+      },
+      {
+        "package": "github.com/Azure/go-autorest/autorest",
+        "version": "v0.11.29",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Azure/go-autorest@v0.11.29#autorest"
+        },
+        "score": 7.1,
+        "details": {
+          "activity": 7.1,
+          "activity_repo": 6.3,
+          "activity_user": 7.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/Azure/go-autorest/autorest/adal",
+        "version": "v0.9.23",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Azure/go-autorest@v0.9.23#autorest/adal"
+        },
+        "score": 7.5,
+        "details": {
+          "activity": 7.5,
+          "activity_repo": 6.3,
+          "activity_user": 8.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/Azure/go-autorest/autorest/azure/auth",
+        "version": "v0.5.12",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Azure/go-autorest@v0.5.12#autorest/azure/auth"
+        },
+        "score": 7.4,
+        "details": {
+          "activity": 7.4,
+          "activity_repo": 6.3,
+          "activity_user": 8.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/Azure/go-autorest/autorest/azure/cli",
+        "version": "v0.4.6",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Azure/go-autorest@v0.4.6#autorest/azure/cli"
+        },
+        "score": 7.4,
+        "details": {
+          "activity": 7.4,
+          "activity_repo": 6.3,
+          "activity_user": 8.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/Azure/go-autorest/autorest/date",
+        "version": "v0.3.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Azure/go-autorest@v0.3.0#autorest/date"
+        },
+        "score": 7.5,
+        "details": {
+          "activity": 7.5,
+          "activity_repo": 6.3,
+          "activity_user": 8.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/Azure/go-autorest/logger",
+        "version": "v0.2.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Azure/go-autorest@v0.2.1#logger"
+        },
+        "score": 7.5,
+        "details": {
+          "activity": 7.5,
+          "activity_repo": 6.3,
+          "activity_user": 8.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/Azure/go-autorest/tracing",
+        "version": "v0.6.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Azure/go-autorest@v0.6.0#tracing"
+        },
+        "score": 7.5,
+        "details": {
+          "activity": 7.5,
+          "activity_repo": 6.3,
+          "activity_user": 8.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/CycloneDX/cyclonedx-go",
+        "version": "v0.8.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/CycloneDX/cyclonedx-go@v0.8.0"
+        },
+        "score": 0,
+        "details": null
+      },
+      {
+        "package": "github.com/Microsoft/go-winio",
+        "version": "v0.6.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/Microsoft/go-winio@v0.6.1"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 5.6,
+          "activity_user": 6.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/ProtonMail/go-crypto",
+        "version": "v1.0.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/ProtonMail/go-crypto@v1.0.0"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 5.2,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/ThalesIgnite/crypto11",
+        "version": "v1.2.5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/ThalesIgnite/crypto11@v1.2.5"
+        },
+        "score": 5.2,
+        "details": {
+          "activity": 5.2,
+          "activity_repo": 4.2,
+          "activity_user": 6.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/acobaugh/osrelease",
+        "version": "v0.1.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/acobaugh/osrelease@v0.1.0"
+        },
+        "score": 2.6,
+        "details": {
+          "activity": 2.6,
+          "activity_repo": 1.6,
+          "activity_user": 3.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/adrg/xdg",
+        "version": "v0.4.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/adrg/xdg@v0.4.0"
+        },
+        "score": 4.8,
+        "details": {
+          "activity": 4.8,
+          "activity_repo": 3.5,
+          "activity_user": 6.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/alibabacloud-gateway-spi",
+        "version": "v0.0.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/alibabacloud-gateway-spi@v0.0.4"
+        },
+        "score": 3,
+        "details": {
+          "activity": 3,
+          "activity_repo": 1.2,
+          "activity_user": 4.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/cr-20160607",
+        "version": "v1.0.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/cr-20160607@v1.0.1"
+        },
+        "score": 3.4,
+        "details": {
+          "activity": 3.4,
+          "activity_repo": 1.3,
+          "activity_user": 5.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/cr-20181201",
+        "version": "v1.0.10",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/cr-20181201@v1.0.10"
+        },
+        "score": 3.4,
+        "details": {
+          "activity": 3.4,
+          "activity_repo": 1.2,
+          "activity_user": 5.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/darabonba-openapi",
+        "version": "v0.2.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/darabonba-openapi@v0.2.1"
+        },
+        "score": 3.8,
+        "details": {
+          "activity": 3.8,
+          "activity_repo": 2,
+          "activity_user": 5.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/debug",
+        "version": "v1.0.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/debug@v1.0.0"
+        },
+        "score": 4.8,
+        "details": {
+          "activity": 4.8,
+          "activity_repo": 1.5,
+          "activity_user": 8.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/endpoint-util",
+        "version": "v1.1.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/endpoint-util@v1.1.1"
+        },
+        "score": 3.1,
+        "details": {
+          "activity": 3.1,
+          "activity_repo": 1.2,
+          "activity_user": 5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/openapi-util",
+        "version": "v0.1.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/openapi-util@v0.1.0"
+        },
+        "score": 3.2,
+        "details": {
+          "activity": 3.2,
+          "activity_repo": 1.4,
+          "activity_user": 5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/tea",
+        "version": "v1.2.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/tea@v1.2.1"
+        },
+        "score": 5.7,
+        "details": {
+          "activity": 5.7,
+          "activity_repo": 3.1,
+          "activity_user": 8.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/tea-utils",
+        "version": "v1.4.5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/tea-utils@v1.4.5"
+        },
+        "score": 5,
+        "details": {
+          "activity": 5,
+          "activity_repo": 1.6,
+          "activity_user": 8.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/alibabacloud-go/tea-xml",
+        "version": "v1.1.3",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/alibabacloud-go/tea-xml@v1.1.3"
+        },
+        "score": 3.2,
+        "details": {
+          "activity": 3.2,
+          "activity_repo": 1.3,
+          "activity_user": 5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aliyun/credentials-go",
+        "version": "v1.3.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aliyun/credentials-go@v1.3.1"
+        },
+        "score": 5.4,
+        "details": {
+          "activity": 5.4,
+          "activity_repo": 2.4,
+          "activity_user": 8.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/anchore/clio",
+        "version": "v0.0.0-20240209204744-cb94e40a4f65",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/anchore/clio@v0.0.0-20240209204744-cb94e40a4f65"
+        },
+        "score": 4.5,
+        "details": {
+          "activity": 4.5,
+          "activity_repo": 2.4,
+          "activity_user": 6.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/anchore/fangs",
+        "version": "v0.0.0-20231201140849-5075d28d6d8b",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/anchore/fangs@v0.0.0-20231201140849-5075d28d6d8b"
+        },
+        "score": 4.4,
+        "details": {
+          "activity": 4.4,
+          "activity_repo": 2.5,
+          "activity_user": 6.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/anchore/go-logger",
+        "version": "v0.0.0-20230725134548-c21dafa1ec5a",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/anchore/go-logger@v0.0.0-20230725134548-c21dafa1ec5a"
+        },
+        "score": 4.6,
+        "details": {
+          "activity": 4.6,
+          "activity_repo": 2.7,
+          "activity_user": 6.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/anchore/go-macholibre",
+        "version": "v0.0.0-20220308212642-53e6d0aaf6fb",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/anchore/go-macholibre@v0.0.0-20220308212642-53e6d0aaf6fb"
+        },
+        "score": 4.2,
+        "details": {
+          "activity": 4.2,
+          "activity_repo": 2.2,
+          "activity_user": 6.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/anchore/packageurl-go",
+        "version": "v0.1.1-0.20240312213626-055233e539b4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/anchore/packageurl-go@v0.1.1-0.20240312213626-055233e539b4"
+        },
+        "score": 4.6,
+        "details": {
+          "activity": 4.6,
+          "activity_repo": 1.9,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/anchore/stereoscope",
+        "version": "v0.0.3-0.20240423181235-8b297badafd5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/anchore/stereoscope@v0.0.3-0.20240423181235-8b297badafd5"
+        },
+        "score": 5.7,
+        "details": {
+          "activity": 5.7,
+          "activity_repo": 4.2,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/anchore/syft",
+        "version": "v1.3.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/anchore/syft@v1.3.0"
+        },
+        "score": 6.9,
+        "details": {
+          "activity": 6.9,
+          "activity_repo": 7.1,
+          "activity_user": 6.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/andybalholm/brotli",
+        "version": "v1.0.6",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/andybalholm/brotli@v1.0.6"
+        },
+        "score": 5.1,
+        "details": {
+          "activity": 5.1,
+          "activity_repo": 3.7,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aquasecurity/go-pep440-version",
+        "version": "v0.0.0-20210121094942-22b2f8951d46",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aquasecurity/go-pep440-version@v0.0.0-20210121094942-22b2f8951d46"
+        },
+        "score": 4.1,
+        "details": {
+          "activity": 4.1,
+          "activity_repo": 1.9,
+          "activity_user": 6.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aquasecurity/go-version",
+        "version": "v0.0.0-20210121072130-637058cfe492",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aquasecurity/go-version@v0.0.0-20210121072130-637058cfe492"
+        },
+        "score": 4.4,
+        "details": {
+          "activity": 4.4,
+          "activity_repo": 2.4,
+          "activity_user": 6.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/asaskevich/govalidator",
+        "version": "v0.0.0-20230301143203-a9d515a09cc2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20230301143203-a9d515a09cc2"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 6.9,
+          "activity_user": 7.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2",
+        "version": "v1.26.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.26.0"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/config",
+        "version": "v1.27.9",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.27.9#config"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/credentials",
+        "version": "v1.17.9",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.17.9#credentials"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+        "version": "v1.16.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.16.0#feature/ec2/imds"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/internal/configsources",
+        "version": "v1.3.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.3.4#internal/configsources"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+        "version": "v2.6.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v2.6.4#internal/endpoints/v2"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/internal/ini",
+        "version": "v1.8.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.8.0#internal/ini"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/service/ecr",
+        "version": "v1.20.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.20.2#service/ecr"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 8
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/service/ecrpublic",
+        "version": "v1.18.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.18.2#service/ecrpublic"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+        "version": "v1.11.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.11.1#service/internal/accept-encoding"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+        "version": "v1.11.6",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.11.6#service/internal/presigned-url"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/service/sso",
+        "version": "v1.20.3",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.20.3#service/sso"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 8
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+        "version": "v1.23.3",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.23.3#service/ssooidc"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/aws/aws-sdk-go-v2/service/sts",
+        "version": "v1.28.5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/aws-sdk-go-v2@v1.28.5#service/sts"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6.4,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 8
+        }
+      },
+      {
+        "package": "github.com/aws/smithy-go",
+        "version": "v1.20.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/aws/smithy-go@v1.20.1"
+        },
+        "score": 5.9,
+        "details": {
+          "activity": 5.9,
+          "activity_repo": 4.5,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/awslabs/amazon-ecr-credential-helper/ecr-login",
+        "version": "v0.0.0-20231024185945-8841054dbdb8",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/awslabs/amazon-ecr-credential-helper@v0.0.0-20231024185945-8841054dbdb8#ecr-login"
+        },
+        "score": 6.8,
+        "details": {
+          "activity": 6.8,
+          "activity_repo": 6.3,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/becheran/wildmatch-go",
+        "version": "v1.0.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/becheran/wildmatch-go@v1.0.0"
+        },
+        "score": 2.1,
+        "details": {
+          "activity": 2.1,
+          "activity_repo": 0.8,
+          "activity_user": 3.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/blang/semver",
+        "version": "v3.5.1+incompatible",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/blang/semver@v3.5.1%2Bincompatible"
+        },
+        "score": 6.2,
+        "details": {
+          "activity": 6.2,
+          "activity_repo": 4.7,
+          "activity_user": 7.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/blang/semver/v4",
+        "version": "v4.0.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/blang/semver@v4.0.0#v4"
+        },
+        "score": 6.2,
+        "details": {
+          "activity": 6.2,
+          "activity_repo": 4.7,
+          "activity_user": 7.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/bmatcuk/doublestar/v4",
+        "version": "v4.6.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/bmatcuk/doublestar@v4.6.1#v4"
+        },
+        "score": 5.6,
+        "details": {
+          "activity": 5.6,
+          "activity_repo": 3.9,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/bom-squad/protobom",
+        "version": "v0.3.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/bom-squad/protobom@v0.3.0"
+        },
+        "score": 5.1,
+        "details": {
+          "activity": 5.1,
+          "activity_repo": 3.7,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/chrismellard/docker-credential-acr-env",
+        "version": "v0.0.0-20230304212654-82a0ddb27589",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/chrismellard/docker-credential-acr-env@v0.0.0-20230304212654-82a0ddb27589"
+        },
+        "score": 4.5,
+        "details": {
+          "activity": 4.5,
+          "activity_repo": 2.5,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/clbanning/mxj/v2",
+        "version": "v2.7.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/clbanning/mxj@v2.7.0#v2"
+        },
+        "score": 5.9,
+        "details": {
+          "activity": 5.9,
+          "activity_repo": 4.2,
+          "activity_user": 7.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/cloudflare/circl",
+        "version": "v1.3.7",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/cloudflare/circl@v1.3.7"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 5.6,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/common-nighthawk/go-figure",
+        "version": "v0.0.0-20210622060536-734e95fb86be",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be"
+        },
+        "score": 5.7,
+        "details": {
+          "activity": 5.7,
+          "activity_repo": 3.8,
+          "activity_user": 7.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/containerd/containerd",
+        "version": "v1.7.14",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/containerd/containerd@v1.7.14"
+        },
+        "score": 8.1,
+        "details": {
+          "activity": 8.1,
+          "activity_repo": 8.8,
+          "activity_user": 7.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/containerd/stargz-snapshotter/estargz",
+        "version": "v0.15.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/containerd/stargz-snapshotter@v0.15.1#estargz"
+        },
+        "score": 6.4,
+        "details": {
+          "activity": 6.4,
+          "activity_repo": 5.4,
+          "activity_user": 7.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/coreos/go-oidc/v3",
+        "version": "v3.10.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/coreos/go-oidc@v3.10.0#v3"
+        },
+        "score": 6.7,
+        "details": {
+          "activity": 6.7,
+          "activity_repo": 5.8,
+          "activity_user": 7.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/cyberphone/json-canonicalization",
+        "version": "v0.0.0-20231011164504-785e29786b46",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/cyberphone/json-canonicalization@v0.0.0-20231011164504-785e29786b46"
+        },
+        "score": 4.5,
+        "details": {
+          "activity": 4.5,
+          "activity_repo": 3,
+          "activity_user": 6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/cyphar/filepath-securejoin",
+        "version": "v0.2.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/cyphar/filepath-securejoin@v0.2.4"
+        },
+        "score": 4.8,
+        "details": {
+          "activity": 4.8,
+          "activity_repo": 2.6,
+          "activity_user": 7.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/davecgh/go-spew",
+        "version": "v1.1.2-0.20180830191138-d8f796af33cc",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.2-0.20180830191138-d8f796af33cc"
+        },
+        "score": 7.1,
+        "details": {
+          "activity": 7.1,
+          "activity_repo": 6,
+          "activity_user": 8.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/digitorus/pkcs7",
+        "version": "v0.0.0-20230818184609-3a137a874352",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/digitorus/pkcs7@v0.0.0-20230818184609-3a137a874352"
+        },
+        "score": 3.8,
+        "details": {
+          "activity": 3.8,
+          "activity_repo": 1.2,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/digitorus/timestamp",
+        "version": "v0.0.0-20231217203849-220c5c2851b7",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/digitorus/timestamp@v0.0.0-20231217203849-220c5c2851b7"
+        },
+        "score": 4.2,
+        "details": {
+          "activity": 4.2,
+          "activity_repo": 2.6,
+          "activity_user": 5.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/dimchansky/utfbom",
+        "version": "v1.1.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/dimchansky/utfbom@v1.1.1"
+        },
+        "score": 4.7,
+        "details": {
+          "activity": 4.7,
+          "activity_repo": 2.9,
+          "activity_user": 6.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/docker/cli",
+        "version": "v26.0.1+incompatible",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/docker/cli@v26.0.1%2Bincompatible"
+        },
+        "score": 8,
+        "details": {
+          "activity": 8,
+          "activity_repo": 8.1,
+          "activity_user": 7.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/docker/distribution",
+        "version": "v2.8.3+incompatible",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/docker/distribution@v2.8.3%2Bincompatible"
+        },
+        "score": 7.5,
+        "details": {
+          "activity": 7.5,
+          "activity_repo": 8.4,
+          "activity_user": 6.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/docker/docker",
+        "version": "v26.1.0+incompatible",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/docker/docker@v26.1.0%2Bincompatible"
+        },
+        "score": 8.8,
+        "details": {
+          "activity": 8.8,
+          "activity_repo": 10,
+          "activity_user": 7.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/docker/docker-credential-helpers",
+        "version": "v0.8.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/docker/docker-credential-helpers@v0.8.1"
+        },
+        "score": 6.5,
+        "details": {
+          "activity": 6.5,
+          "activity_repo": 5.9,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/docker/go-connections",
+        "version": "v0.5.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/docker/go-connections@v0.5.0"
+        },
+        "score": 6.2,
+        "details": {
+          "activity": 6.2,
+          "activity_repo": 5,
+          "activity_user": 7.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/dsnet/compress",
+        "version": "v0.0.2-0.20210315054119-f66993602bf5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/dsnet/compress@v0.0.2-0.20210315054119-f66993602bf5"
+        },
+        "score": 4.7,
+        "details": {
+          "activity": 4.7,
+          "activity_repo": 3.8,
+          "activity_user": 5.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/dustin/go-humanize",
+        "version": "v1.0.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/dustin/go-humanize@v1.0.1"
+        },
+        "score": 6.2,
+        "details": {
+          "activity": 6.2,
+          "activity_repo": 5.5,
+          "activity_user": 6.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/emicklei/go-restful/v3",
+        "version": "v3.11.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/emicklei/go-restful@v3.11.0#v3"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 5.9,
+          "activity_user": 6.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/emirpasic/gods",
+        "version": "v1.18.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/emirpasic/gods@v1.18.1"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 7,
+          "activity_user": 6.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/facebookincubator/nvdtools",
+        "version": "v0.1.5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/facebookincubator/nvdtools@v0.1.5"
+        },
+        "score": 5.5,
+        "details": {
+          "activity": 5.5,
+          "activity_repo": 4.8,
+          "activity_user": 6.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/felixge/fgprof",
+        "version": "v0.9.3",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/felixge/fgprof@v0.9.3"
+        },
+        "score": 6.2,
+        "details": {
+          "activity": 6.2,
+          "activity_repo": 4.6,
+          "activity_user": 7.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/felixge/httpsnoop",
+        "version": "v1.0.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/felixge/httpsnoop@v1.0.4"
+        },
+        "score": 5.7,
+        "details": {
+          "activity": 5.7,
+          "activity_repo": 3.6,
+          "activity_user": 7.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/fsnotify/fsnotify",
+        "version": "v1.7.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/fsnotify/fsnotify@v1.7.0"
+        },
+        "score": 7.8,
+        "details": {
+          "activity": 7.8,
+          "activity_repo": 6.7,
+          "activity_user": 8.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/gabriel-vasile/mimetype",
+        "version": "v1.4.3",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/gabriel-vasile/mimetype@v1.4.3"
+        },
+        "score": 5.5,
+        "details": {
+          "activity": 5.5,
+          "activity_repo": 5.5,
+          "activity_user": 5.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/github/go-spdx/v2",
+        "version": "v2.2.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/github/go-spdx@v2.2.0#v2"
+        },
+        "score": 5.8,
+        "details": {
+          "activity": 5.8,
+          "activity_repo": 5.3,
+          "activity_user": 6.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-chi/chi",
+        "version": "v4.1.2+incompatible",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-chi/chi@v4.1.2%2Bincompatible"
+        },
+        "score": 7.3,
+        "details": {
+          "activity": 7.3,
+          "activity_repo": 7.3,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-git/gcfg",
+        "version": "v1.5.1-0.20230307220236-3a3c6141e376",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-git/gcfg@v1.5.1-0.20230307220236-3a3c6141e376"
+        },
+        "score": 4.4,
+        "details": {
+          "activity": 4.4,
+          "activity_repo": 1.9,
+          "activity_user": 6.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-git/go-billy/v5",
+        "version": "v5.5.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-git/go-billy@v5.5.0#v5"
+        },
+        "score": 5.5,
+        "details": {
+          "activity": 5.5,
+          "activity_repo": 4,
+          "activity_user": 6.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-git/go-git/v5",
+        "version": "v5.12.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-git/go-git@v5.12.0#v5"
+        },
+        "score": 7.4,
+        "details": {
+          "activity": 7.4,
+          "activity_repo": 7.1,
+          "activity_user": 7.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-jose/go-jose/v3",
+        "version": "v3.0.3",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-jose/go-jose@v3.0.3#v3"
+        },
+        "score": 5.5,
+        "details": {
+          "activity": 5.5,
+          "activity_repo": 3.7,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-jose/go-jose/v4",
+        "version": "v4.0.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-jose/go-jose@v4.0.1#v4"
+        },
+        "score": 5.5,
+        "details": {
+          "activity": 5.5,
+          "activity_repo": 3.7,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-logr/logr",
+        "version": "v1.4.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-logr/logr@v1.4.1"
+        },
+        "score": 5.9,
+        "details": {
+          "activity": 5.9,
+          "activity_repo": 4.6,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-logr/stdr",
+        "version": "v1.2.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-logr/stdr@v1.2.2"
+        },
+        "score": 4.3,
+        "details": {
+          "activity": 4.3,
+          "activity_repo": 1.9,
+          "activity_user": 6.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/analysis",
+        "version": "v0.23.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/analysis@v0.23.0"
+        },
+        "score": 5,
+        "details": {
+          "activity": 5,
+          "activity_repo": 3.1,
+          "activity_user": 6.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/errors",
+        "version": "v0.22.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/errors@v0.22.0"
+        },
+        "score": 4.8,
+        "details": {
+          "activity": 4.8,
+          "activity_repo": 2.9,
+          "activity_user": 6.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/jsonpointer",
+        "version": "v0.21.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/jsonpointer@v0.21.0"
+        },
+        "score": 5.2,
+        "details": {
+          "activity": 5.2,
+          "activity_repo": 3,
+          "activity_user": 7.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/jsonreference",
+        "version": "v0.21.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/jsonreference@v0.21.0"
+        },
+        "score": 4.7,
+        "details": {
+          "activity": 4.7,
+          "activity_repo": 2.6,
+          "activity_user": 6.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/loads",
+        "version": "v0.22.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/loads@v0.22.0"
+        },
+        "score": 5,
+        "details": {
+          "activity": 5,
+          "activity_repo": 2.8,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/runtime",
+        "version": "v0.28.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/runtime@v0.28.0"
+        },
+        "score": 5.5,
+        "details": {
+          "activity": 5.5,
+          "activity_repo": 4.9,
+          "activity_user": 6.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/spec",
+        "version": "v0.21.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/spec@v0.21.0"
+        },
+        "score": 5.7,
+        "details": {
+          "activity": 5.7,
+          "activity_repo": 4.2,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/strfmt",
+        "version": "v0.23.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/strfmt@v0.23.0"
+        },
+        "score": 5.4,
+        "details": {
+          "activity": 5.4,
+          "activity_repo": 4,
+          "activity_user": 6.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/swag",
+        "version": "v0.23.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/swag@v0.23.0"
+        },
+        "score": 5.2,
+        "details": {
+          "activity": 5.2,
+          "activity_repo": 3.7,
+          "activity_user": 6.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-openapi/validate",
+        "version": "v0.24.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-openapi/validate@v0.24.0"
+        },
+        "score": 5.4,
+        "details": {
+          "activity": 5.4,
+          "activity_repo": 4.2,
+          "activity_user": 6.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-piv/piv-go",
+        "version": "v1.11.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-piv/piv-go@v1.11.0"
+        },
+        "score": 5.7,
+        "details": {
+          "activity": 5.7,
+          "activity_repo": 4.3,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/go-restruct/restruct",
+        "version": "v1.2.0-alpha",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/go-restruct/restruct@v1.2.0-alpha"
+        },
+        "score": 5.8,
+        "details": {
+          "activity": 5.8,
+          "activity_repo": 3.8,
+          "activity_user": 7.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/gogo/protobuf",
+        "version": "v1.3.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/gogo/protobuf@v1.3.2"
+        },
+        "score": 6.9,
+        "details": {
+          "activity": 6.9,
+          "activity_repo": 7,
+          "activity_user": 6.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/golang-jwt/jwt/v4",
+        "version": "v4.5.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/golang-jwt/jwt@v4.5.0#v4"
+        },
+        "score": 6.7,
+        "details": {
+          "activity": 6.7,
+          "activity_repo": 6.1,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 8
+        }
+      },
+      {
+        "package": "github.com/golang/groupcache",
+        "version": "v0.0.0-20210331224755-41bb18bfe9da",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da"
+        },
+        "score": 7.2,
+        "details": {
+          "activity": 7.2,
+          "activity_repo": 7.1,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/golang/protobuf",
+        "version": "v1.5.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/golang/protobuf@v1.5.4"
+        },
+        "score": 7.6,
+        "details": {
+          "activity": 7.6,
+          "activity_repo": 7.5,
+          "activity_user": 7.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/golang/snappy",
+        "version": "v0.0.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/golang/snappy@v0.0.4"
+        },
+        "score": 7.2,
+        "details": {
+          "activity": 7.2,
+          "activity_repo": 5.2,
+          "activity_user": 9.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/certificate-transparency-go",
+        "version": "v1.1.8",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/certificate-transparency-go@v1.1.8"
+        },
+        "score": 6.5,
+        "details": {
+          "activity": 6.5,
+          "activity_repo": 5.7,
+          "activity_user": 7.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/gnostic-models",
+        "version": "v0.6.9-0.20230804172637-c7be7c783f49",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/gnostic-models@v0.6.9-0.20230804172637-c7be7c783f49"
+        },
+        "score": 4.8,
+        "details": {
+          "activity": 4.8,
+          "activity_repo": 2.2,
+          "activity_user": 7.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/go-cmp",
+        "version": "v0.6.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/go-cmp@v0.6.0"
+        },
+        "score": 7.3,
+        "details": {
+          "activity": 7.3,
+          "activity_repo": 5.6,
+          "activity_user": 9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/go-containerregistry",
+        "version": "v0.19.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/go-containerregistry@v0.19.1"
+        },
+        "score": 7.2,
+        "details": {
+          "activity": 7.2,
+          "activity_repo": 6.5,
+          "activity_user": 7.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/go-github/v45",
+        "version": "v45.2.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/go-github@v45.2.0#v45"
+        },
+        "score": 7.8,
+        "details": {
+          "activity": 7.8,
+          "activity_repo": 8,
+          "activity_user": 7.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 8
+        }
+      },
+      {
+        "package": "github.com/google/go-querystring",
+        "version": "v1.1.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/go-querystring@v1.1.0"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 4.8,
+          "activity_user": 7.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/gofuzz",
+        "version": "v1.2.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/gofuzz@v1.2.0"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 5,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/licensecheck",
+        "version": "v0.3.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/licensecheck@v0.3.1"
+        },
+        "score": 6.6,
+        "details": {
+          "activity": 6.6,
+          "activity_repo": 4.2,
+          "activity_user": 9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/pprof",
+        "version": "v0.0.0-20240409012703-83162a5b38cd",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/pprof@v0.0.0-20240409012703-83162a5b38cd"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 6.9,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/s2a-go",
+        "version": "v0.1.7",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/s2a-go@v0.1.7"
+        },
+        "score": 4.2,
+        "details": {
+          "activity": 4.2,
+          "activity_repo": 2.2,
+          "activity_user": 6.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/google/uuid",
+        "version": "v1.6.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/google/uuid@v1.6.0"
+        },
+        "score": 6.5,
+        "details": {
+          "activity": 6.5,
+          "activity_repo": 6,
+          "activity_user": 7.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/googleapis/enterprise-certificate-proxy",
+        "version": "v0.3.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/googleapis/enterprise-certificate-proxy@v0.3.2"
+        },
+        "score": 6.4,
+        "details": {
+          "activity": 6.4,
+          "activity_repo": 4.2,
+          "activity_user": 8.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/gookit/color",
+        "version": "v1.5.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/gookit/color@v1.5.4"
+        },
+        "score": 6.5,
+        "details": {
+          "activity": 6.5,
+          "activity_repo": 4.4,
+          "activity_user": 8.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/grpc-ecosystem/grpc-gateway/v2",
+        "version": "v2.19.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/grpc-ecosystem/grpc-gateway@v2.19.1#v2"
+        },
+        "score": 7.3,
+        "details": {
+          "activity": 7.3,
+          "activity_repo": 8.1,
+          "activity_user": 6.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/hashicorp/errwrap",
+        "version": "v1.1.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/hashicorp/errwrap@v1.1.0"
+        },
+        "score": 7.2,
+        "details": {
+          "activity": 7.2,
+          "activity_repo": 6.1,
+          "activity_user": 8.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/hashicorp/go-cleanhttp",
+        "version": "v0.5.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/hashicorp/go-cleanhttp@v0.5.2"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 4.2,
+          "activity_user": 8.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/hashicorp/go-multierror",
+        "version": "v1.1.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/hashicorp/go-multierror@v1.1.1"
+        },
+        "score": 7.6,
+        "details": {
+          "activity": 7.6,
+          "activity_repo": 6.9,
+          "activity_user": 8.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/hashicorp/go-retryablehttp",
+        "version": "v0.7.5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/hashicorp/go-retryablehttp@v0.7.5"
+        },
+        "score": 7.4,
+        "details": {
+          "activity": 7.4,
+          "activity_repo": 7.3,
+          "activity_user": 7.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/hashicorp/hcl",
+        "version": "v1.0.1-vault-5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/hashicorp/hcl@v1.0.1-vault-5"
+        },
+        "score": 7.8,
+        "details": {
+          "activity": 7.8,
+          "activity_repo": 8.1,
+          "activity_user": 7.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/iancoleman/strcase",
+        "version": "v0.3.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/iancoleman/strcase@v0.3.0"
+        },
+        "score": 5.3,
+        "details": {
+          "activity": 5.3,
+          "activity_repo": 4.3,
+          "activity_user": 6.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/imdario/mergo",
+        "version": "v0.3.16",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/imdario/mergo@v0.3.16"
+        },
+        "score": 5.9,
+        "details": {
+          "activity": 5.9,
+          "activity_repo": 5.3,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/in-toto/in-toto-golang",
+        "version": "v0.9.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/in-toto/in-toto-golang@v0.9.0"
+        },
+        "score": 5.6,
+        "details": {
+          "activity": 5.6,
+          "activity_repo": 4.3,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/inconshreveable/mousetrap",
+        "version": "v1.1.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/inconshreveable/mousetrap@v1.1.0"
+        },
+        "score": 4.8,
+        "details": {
+          "activity": 4.8,
+          "activity_repo": 2.7,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/jbenet/go-context",
+        "version": "v0.0.0-20150711004518-d14ea06fba99",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/jbenet/go-context@v0.0.0-20150711004518-d14ea06fba99"
+        },
+        "score": 4.3,
+        "details": {
+          "activity": 4.3,
+          "activity_repo": 2,
+          "activity_user": 6.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/jedisct1/go-minisign",
+        "version": "v0.0.0-20230811132847-661be99b8267",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/jedisct1/go-minisign@v0.0.0-20230811132847-661be99b8267"
+        },
+        "score": 4.7,
+        "details": {
+          "activity": 4.7,
+          "activity_repo": 2.3,
+          "activity_user": 7.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/jinzhu/copier",
+        "version": "v0.4.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/jinzhu/copier@v0.4.0"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 6.1,
+          "activity_user": 7.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/jmespath/go-jmespath",
+        "version": "v0.4.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/jmespath/go-jmespath@v0.4.0"
+        },
+        "score": 5.4,
+        "details": {
+          "activity": 5.4,
+          "activity_repo": 4.5,
+          "activity_user": 6.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/josharian/intern",
+        "version": "v1.0.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/josharian/intern@v1.0.0"
+        },
+        "score": 4.2,
+        "details": {
+          "activity": 4.2,
+          "activity_repo": 2.3,
+          "activity_user": 6.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/json-iterator/go",
+        "version": "v1.1.12",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/json-iterator/go@v1.1.12"
+        },
+        "score": 7.4,
+        "details": {
+          "activity": 7.4,
+          "activity_repo": 7.4,
+          "activity_user": 7.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/kastenhq/goversion",
+        "version": "v0.0.0-20230811215019-93b2f8823953",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/kastenhq/goversion@v0.0.0-20230811215019-93b2f8823953"
+        },
+        "score": 3.9,
+        "details": {
+          "activity": 3.9,
+          "activity_repo": 0.8,
+          "activity_user": 7.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/kevinburke/ssh_config",
+        "version": "v1.2.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/kevinburke/ssh_config@v1.2.0"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 4.1,
+          "activity_user": 7.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/klauspost/compress",
+        "version": "v1.17.8",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/klauspost/compress@v1.17.8"
+        },
+        "score": 6.4,
+        "details": {
+          "activity": 6.4,
+          "activity_repo": 5.6,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/klauspost/pgzip",
+        "version": "v1.2.6",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/klauspost/pgzip@v1.2.6"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 4.5,
+          "activity_user": 8.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/letsencrypt/boulder",
+        "version": "v0.0.0-20231030195133-fdaab3e21ab0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/letsencrypt/boulder@v0.0.0-20231030195133-fdaab3e21ab0"
+        },
+        "score": 7.2,
+        "details": {
+          "activity": 7.2,
+          "activity_repo": 7.2,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/magiconair/properties",
+        "version": "v1.8.7",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/magiconair/properties@v1.8.7"
+        },
+        "score": 5.2,
+        "details": {
+          "activity": 5.2,
+          "activity_repo": 4.2,
+          "activity_user": 6.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/mailru/easyjson",
+        "version": "v0.7.7",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/mailru/easyjson@v0.7.7"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 6.6,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/mattn/go-colorable",
+        "version": "v0.1.13",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/mattn/go-colorable@v0.1.13"
+        },
+        "score": 5.8,
+        "details": {
+          "activity": 5.8,
+          "activity_repo": 4.5,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/mattn/go-isatty",
+        "version": "v0.0.20",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/mattn/go-isatty@v0.0.20"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 4.6,
+          "activity_user": 7.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/mgutz/ansi",
+        "version": "v0.0.0-20200706080929-d51e80ef957d",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/mgutz/ansi@v0.0.0-20200706080929-d51e80ef957d"
+        },
+        "score": 5,
+        "details": {
+          "activity": 5,
+          "activity_repo": 3.5,
+          "activity_user": 6.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/mholt/archiver/v3",
+        "version": "v3.5.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/mholt/archiver@v3.5.1#v3"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 5.9,
+          "activity_user": 6.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 8
+        }
+      },
+      {
+        "package": "github.com/miekg/pkcs11",
+        "version": "v1.1.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/miekg/pkcs11@v1.1.1"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 4.9,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/mitchellh/go-homedir",
+        "version": "v1.1.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/mitchellh/go-homedir@v1.1.0"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 4.3,
+          "activity_user": 8.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/mitchellh/hashstructure/v2",
+        "version": "v2.0.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/mitchellh/hashstructure@v2.0.2#v2"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 4.2,
+          "activity_user": 7.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/mitchellh/mapstructure",
+        "version": "v1.5.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/mitchellh/mapstructure@v1.5.0"
+        },
+        "score": 6.9,
+        "details": {
+          "activity": 6.9,
+          "activity_repo": 6.5,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/moby/sys/mountinfo",
+        "version": "v0.7.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/moby/sys@v0.7.1#mountinfo"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 4.2,
+          "activity_user": 8.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/modern-go/concurrent",
+        "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd"
+        },
+        "score": 4.4,
+        "details": {
+          "activity": 4.4,
+          "activity_repo": 3.1,
+          "activity_user": 5.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/modern-go/reflect2",
+        "version": "v1.0.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.2"
+        },
+        "score": 5.6,
+        "details": {
+          "activity": 5.6,
+          "activity_repo": 4.3,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/mozillazg/docker-credential-acr-helper",
+        "version": "v0.3.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/mozillazg/docker-credential-acr-helper@v0.3.0"
+        },
+        "score": 3.5,
+        "details": {
+          "activity": 3.5,
+          "activity_repo": 0.9,
+          "activity_user": 6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/munnerz/goautoneg",
+        "version": "v0.0.0-20191010083416-a7dc8b61c822",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822"
+        },
+        "score": 4.6,
+        "details": {
+          "activity": 4.6,
+          "activity_repo": 1.8,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/nozzle/throttler",
+        "version": "v0.0.0-20180817012639-2ea982251481",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/nozzle/throttler@v0.0.0-20180817012639-2ea982251481"
+        },
+        "score": 4.2,
+        "details": {
+          "activity": 4.2,
+          "activity_repo": 3.1,
+          "activity_user": 5.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/nwaples/rardecode",
+        "version": "v1.1.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/nwaples/rardecode@v1.1.0"
+        },
+        "score": 4,
+        "details": {
+          "activity": 4,
+          "activity_repo": 3.3,
+          "activity_user": 4.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/oklog/ulid",
+        "version": "v1.3.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/oklog/ulid@v1.3.1"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 5,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/opencontainers/go-digest",
+        "version": "v1.0.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 4.2,
+          "activity_user": 8.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/opencontainers/image-spec",
+        "version": "v1.1.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/opencontainers/image-spec@v1.1.0"
+        },
+        "score": 7.6,
+        "details": {
+          "activity": 7.6,
+          "activity_repo": 6.8,
+          "activity_user": 8.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/opentracing/opentracing-go",
+        "version": "v1.2.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/opentracing/opentracing-go@v1.2.0"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 6,
+          "activity_user": 5.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/pborman/indent",
+        "version": "v1.2.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/pborman/indent@v1.2.1"
+        },
+        "score": 2,
+        "details": {
+          "activity": 2,
+          "activity_repo": 0.8,
+          "activity_user": 3.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/pelletier/go-toml",
+        "version": "v1.9.5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/pelletier/go-toml@v1.9.5"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 5.5,
+          "activity_user": 6.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/pelletier/go-toml/v2",
+        "version": "v2.1.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/pelletier/go-toml@v2.1.1#v2"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 5.5,
+          "activity_user": 6.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/pierrec/lz4/v4",
+        "version": "v4.1.18",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/pierrec/lz4@v4.1.18#v4"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 5,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/pjbgf/sha1cd",
+        "version": "v0.3.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/pjbgf/sha1cd@v0.3.0"
+        },
+        "score": 3.2,
+        "details": {
+          "activity": 3.2,
+          "activity_repo": 1.6,
+          "activity_user": 4.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/pkg/errors",
+        "version": "v0.9.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/pkg/errors@v0.9.1"
+        },
+        "score": 6.8,
+        "details": {
+          "activity": 6.8,
+          "activity_repo": 6.6,
+          "activity_user": 7.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/pkg/profile",
+        "version": "v1.7.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/pkg/profile@v1.7.0"
+        },
+        "score": 6.5,
+        "details": {
+          "activity": 6.5,
+          "activity_repo": 4.9,
+          "activity_user": 8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/puerco/bind",
+        "version": "v0.0.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/puerco/bind@v0.0.1"
+        },
+        "score": 2.6,
+        "details": {
+          "activity": 2.6,
+          "activity_repo": 0.4,
+          "activity_user": 4.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sagikazarmark/locafero",
+        "version": "v0.4.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sagikazarmark/locafero@v0.4.0"
+        },
+        "score": 3.7,
+        "details": {
+          "activity": 3.7,
+          "activity_repo": 1.1,
+          "activity_user": 6.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sagikazarmark/slog-shim",
+        "version": "v0.1.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sagikazarmark/slog-shim@v0.1.0"
+        },
+        "score": 3.6,
+        "details": {
+          "activity": 3.6,
+          "activity_repo": 1.1,
+          "activity_user": 6.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sassoftware/relic",
+        "version": "v7.2.1+incompatible",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sassoftware/relic@v7.2.1%2Bincompatible"
+        },
+        "score": 5.2,
+        "details": {
+          "activity": 5.2,
+          "activity_repo": 4,
+          "activity_user": 6.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/scylladb/go-set",
+        "version": "v1.0.3-0.20200225121959-cc7b2070d91e",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/scylladb/go-set@v1.0.3-0.20200225121959-cc7b2070d91e"
+        },
+        "score": 4.9,
+        "details": {
+          "activity": 4.9,
+          "activity_repo": 4.1,
+          "activity_user": 5.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/secure-systems-lab/go-securesystemslib",
+        "version": "v0.8.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/secure-systems-lab/go-securesystemslib@v0.8.0"
+        },
+        "score": 4.7,
+        "details": {
+          "activity": 4.7,
+          "activity_repo": 3.2,
+          "activity_user": 6.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/segmentio/ksuid",
+        "version": "v1.0.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/segmentio/ksuid@v1.0.4"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 5.6,
+          "activity_user": 6.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sergi/go-diff",
+        "version": "v1.3.2-0.20230802210424-5b0b94c5c0d3",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sergi/go-diff@v1.3.2-0.20230802210424-5b0b94c5c0d3"
+        },
+        "score": 5.9,
+        "details": {
+          "activity": 5.9,
+          "activity_repo": 5.3,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/shibumi/go-pathspec",
+        "version": "v1.3.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/shibumi/go-pathspec@v1.3.0"
+        },
+        "score": 3.2,
+        "details": {
+          "activity": 3.2,
+          "activity_repo": 1.1,
+          "activity_user": 5.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sigstore/cosign",
+        "version": "v1.13.6",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sigstore/cosign@v1.13.6"
+        },
+        "score": 7.6,
+        "details": {
+          "activity": 7.6,
+          "activity_repo": 7,
+          "activity_user": 8.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sigstore/cosign/v2",
+        "version": "v2.2.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sigstore/cosign@v2.2.4#v2"
+        },
+        "score": 7.6,
+        "details": {
+          "activity": 7.6,
+          "activity_repo": 7,
+          "activity_user": 8.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sigstore/fulcio",
+        "version": "v1.4.5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sigstore/fulcio@v1.4.5"
+        },
+        "score": 6.4,
+        "details": {
+          "activity": 6.4,
+          "activity_repo": 5.3,
+          "activity_user": 7.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sigstore/protobuf-specs",
+        "version": "v0.3.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sigstore/protobuf-specs@v0.3.1"
+        },
+        "score": 5.6,
+        "details": {
+          "activity": 5.6,
+          "activity_repo": 3.9,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sigstore/rekor",
+        "version": "v1.3.6",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sigstore/rekor@v1.3.6"
+        },
+        "score": 7.1,
+        "details": {
+          "activity": 7.1,
+          "activity_repo": 5.6,
+          "activity_user": 8.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sigstore/sigstore",
+        "version": "v1.8.3",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sigstore/sigstore@v1.8.3"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 5.1,
+          "activity_user": 7.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sigstore/timestamp-authority",
+        "version": "v1.2.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sigstore/timestamp-authority@v1.2.2"
+        },
+        "score": 5.4,
+        "details": {
+          "activity": 5.4,
+          "activity_repo": 3.6,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sirupsen/logrus",
+        "version": "v1.9.4-0.20230606125235-dd1b4c2e81af",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sirupsen/logrus@v1.9.4-0.20230606125235-dd1b4c2e81af"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 6.9,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/skeema/knownhosts",
+        "version": "v1.2.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/skeema/knownhosts@v1.2.2"
+        },
+        "score": 2.9,
+        "details": {
+          "activity": 2.9,
+          "activity_repo": 1.4,
+          "activity_user": 4.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/skratchdot/open-golang",
+        "version": "v0.0.0-20200116055534-eef842397966",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/skratchdot/open-golang@v0.0.0-20200116055534-eef842397966"
+        },
+        "score": 5.8,
+        "details": {
+          "activity": 5.8,
+          "activity_repo": 4.4,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sourcegraph/conc",
+        "version": "v0.3.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sourcegraph/conc@v0.3.0"
+        },
+        "score": 6.5,
+        "details": {
+          "activity": 6.5,
+          "activity_repo": 5.8,
+          "activity_user": 7.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/spdx/tools-golang",
+        "version": "v0.5.4",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/spdx/tools-golang@v0.5.4"
+        },
+        "score": 5.7,
+        "details": {
+          "activity": 5.7,
+          "activity_repo": 4.4,
+          "activity_user": 7.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/spf13/afero",
+        "version": "v1.11.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/spf13/afero@v1.11.0"
+        },
+        "score": 6.5,
+        "details": {
+          "activity": 6.5,
+          "activity_repo": 6.8,
+          "activity_user": 6.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/spf13/cast",
+        "version": "v1.6.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/spf13/cast@v1.6.0"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 5.8,
+          "activity_user": 6.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/spf13/cobra",
+        "version": "v1.8.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/spf13/cobra@v1.8.0"
+        },
+        "score": 8.1,
+        "details": {
+          "activity": 8.1,
+          "activity_repo": 8.5,
+          "activity_user": 7.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/spf13/pflag",
+        "version": "v1.0.5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/spf13/pflag@v1.0.5"
+        },
+        "score": 6.6,
+        "details": {
+          "activity": 6.6,
+          "activity_repo": 5.7,
+          "activity_user": 7.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/spf13/viper",
+        "version": "v1.18.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/spf13/viper@v1.18.2"
+        },
+        "score": 7.5,
+        "details": {
+          "activity": 7.5,
+          "activity_repo": 8.2,
+          "activity_user": 6.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/spiffe/go-spiffe/v2",
+        "version": "v2.2.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/spiffe/go-spiffe@v2.2.0#v2"
+        },
+        "score": 5.4,
+        "details": {
+          "activity": 5.4,
+          "activity_repo": 4.6,
+          "activity_user": 6.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/stacklok/minder",
+        "version": "v0.0.47",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/stacklok/minder@v0.0.47"
+        },
+        "score": 5.6,
+        "details": {
+          "activity": 5.6,
+          "activity_repo": 4.8,
+          "activity_user": 6.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/subosito/gotenv",
+        "version": "v1.6.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/subosito/gotenv@v1.6.0"
+        },
+        "score": 4.5,
+        "details": {
+          "activity": 4.5,
+          "activity_repo": 3,
+          "activity_user": 6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/sylabs/squashfs",
+        "version": "v0.6.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sylabs/squashfs@v0.6.1"
+        },
+        "score": 3.3,
+        "details": {
+          "activity": 3.3,
+          "activity_repo": 0.7,
+          "activity_user": 6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/syndtr/goleveldb",
+        "version": "v1.0.1-0.20220721030215-126854af5e6d",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/syndtr/goleveldb@v1.0.1-0.20220721030215-126854af5e6d"
+        },
+        "score": 7.2,
+        "details": {
+          "activity": 7.2,
+          "activity_repo": 7,
+          "activity_user": 7.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/thales-e-security/pool",
+        "version": "v0.0.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/thales-e-security/pool@v0.0.2"
+        },
+        "score": 2.9,
+        "details": {
+          "activity": 2.9,
+          "activity_repo": 1.1,
+          "activity_user": 4.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/therootcompany/xz",
+        "version": "v1.0.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/therootcompany/xz@v1.0.1"
+        },
+        "score": 1.6,
+        "details": {
+          "activity": 1.6,
+          "activity_repo": 0.5,
+          "activity_user": 2.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/theupdateframework/go-tuf",
+        "version": "v0.7.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/theupdateframework/go-tuf@v0.7.0"
+        },
+        "score": 5.8,
+        "details": {
+          "activity": 5.8,
+          "activity_repo": 5.2,
+          "activity_user": 6.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/titanous/rocacheck",
+        "version": "v0.0.0-20171023193734-afe73141d399",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/titanous/rocacheck@v0.0.0-20171023193734-afe73141d399"
+        },
+        "score": 3.8,
+        "details": {
+          "activity": 3.8,
+          "activity_repo": 1.6,
+          "activity_user": 6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/tjfoc/gmsm",
+        "version": "v1.4.1",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/tjfoc/gmsm@v1.4.1"
+        },
+        "score": 5.9,
+        "details": {
+          "activity": 5.9,
+          "activity_repo": 5.8,
+          "activity_user": 6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/transparency-dev/merkle",
+        "version": "v0.0.2",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/transparency-dev/merkle@v0.0.2"
+        },
+        "score": 4.1,
+        "details": {
+          "activity": 4.1,
+          "activity_repo": 2.4,
+          "activity_user": 5.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/ulikunitz/xz",
+        "version": "v0.5.11",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/ulikunitz/xz@v0.5.11"
+        },
+        "score": 5,
+        "details": {
+          "activity": 5,
+          "activity_repo": 4,
+          "activity_user": 6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/vbatts/tar-split",
+        "version": "v0.11.5",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/vbatts/tar-split@v0.11.5"
+        },
+        "score": 6,
+        "details": {
+          "activity": 6,
+          "activity_repo": 3.5,
+          "activity_user": 8.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/wagoodman/go-partybus",
+        "version": "v0.0.0-20230516145632-8ccac152c651",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/wagoodman/go-partybus@v0.0.0-20230516145632-8ccac152c651"
+        },
+        "score": 3.4,
+        "details": {
+          "activity": 3.4,
+          "activity_repo": 1.2,
+          "activity_user": 5.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/wagoodman/go-progress",
+        "version": "v0.0.0-20230925121702-07e42b3cdba0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/wagoodman/go-progress@v0.0.0-20230925121702-07e42b3cdba0"
+        },
+        "score": 3.8,
+        "details": {
+          "activity": 3.8,
+          "activity_repo": 1.5,
+          "activity_user": 6.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/xanzy/go-gitlab",
+        "version": "v0.102.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/xanzy/go-gitlab@v0.102.0"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 6.6,
+          "activity_user": 6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/xanzy/ssh-agent",
+        "version": "v0.3.3",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/xanzy/ssh-agent@v0.3.3"
+        },
+        "score": 4.5,
+        "details": {
+          "activity": 4.5,
+          "activity_repo": 2.6,
+          "activity_user": 6.4,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/xi2/xz",
+        "version": "v0.0.0-20171230120015-48954b6210f8",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/xi2/xz@v0.0.0-20171230120015-48954b6210f8"
+        },
+        "score": 1.6,
+        "details": {
+          "activity": 1.6,
+          "activity_repo": 2.4,
+          "activity_user": 0.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/xo/terminfo",
+        "version": "v0.0.0-20210125001918-ca9a967f8778",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/xo/terminfo@v0.0.0-20210125001918-ca9a967f8778"
+        },
+        "score": 3.9,
+        "details": {
+          "activity": 3.9,
+          "activity_repo": 2,
+          "activity_user": 5.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "github.com/zeebo/errs",
+        "version": "v1.3.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/zeebo/errs@v1.3.0"
+        },
+        "score": 4.5,
+        "details": {
+          "activity": 4.5,
+          "activity_repo": 2.2,
+          "activity_user": 6.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "go.mongodb.org/mongo-driver",
+        "version": "v1.14.0",
+        "identifiers": {
+          "purl": "pkg:golang/go.mongodb.org/mongo-driver@v1.14.0"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 6.5,
+          "activity_user": 6.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "go.opencensus.io",
+        "version": "v0.24.0",
+        "identifiers": {
+          "purl": "pkg:golang/go.opencensus.io@v0.24.0"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 6.5,
+          "activity_user": 7.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp",
+        "version": "v0.50.0",
+        "identifiers": {
+          "purl": "pkg:golang/go.opentelemetry.io/contrib/instrumentation@v0.50.0#net/http/otelhttp"
+        },
+        "score": 6.5,
+        "details": {
+          "activity": 6.5,
+          "activity_repo": 6.5,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "go.opentelemetry.io/otel",
+        "version": "v1.25.0",
+        "identifiers": {
+          "purl": "pkg:golang/go.opentelemetry.io/otel@v1.25.0"
+        },
+        "score": 7.2,
+        "details": {
+          "activity": 7.2,
+          "activity_repo": 7.3,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "go.opentelemetry.io/otel/metric",
+        "version": "v1.25.0",
+        "identifiers": {
+          "purl": "pkg:golang/go.opentelemetry.io/otel/metric@v1.25.0"
+        },
+        "score": 7.2,
+        "details": {
+          "activity": 7.2,
+          "activity_repo": 7.3,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "go.opentelemetry.io/otel/trace",
+        "version": "v1.25.0",
+        "identifiers": {
+          "purl": "pkg:golang/go.opentelemetry.io/otel/trace@v1.25.0"
+        },
+        "score": 7.2,
+        "details": {
+          "activity": 7.2,
+          "activity_repo": 7.3,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "go.uber.org/multierr",
+        "version": "v1.11.0",
+        "identifiers": {
+          "purl": "pkg:golang/go.uber.org/multierr@v1.11.0"
+        },
+        "score": 5.7,
+        "details": {
+          "activity": 5.7,
+          "activity_repo": 4.1,
+          "activity_user": 7.3,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "go.uber.org/zap",
+        "version": "v1.27.0",
+        "identifiers": {
+          "purl": "pkg:golang/go.uber.org/zap@v1.27.0"
+        },
+        "score": 7.4,
+        "details": {
+          "activity": 7.4,
+          "activity_repo": 7.7,
+          "activity_user": 7.1,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/crypto",
+        "version": "v0.22.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/crypto@v0.22.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/exp",
+        "version": "v0.0.0-20240222234643-814bf88cf225",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/exp@v0.0.0-20240222234643-814bf88cf225"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/mod",
+        "version": "v0.17.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/mod@v0.17.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/net",
+        "version": "v0.24.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/net@v0.24.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/oauth2",
+        "version": "v0.19.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/oauth2@v0.19.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/sync",
+        "version": "v0.7.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/sync@v0.7.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/sys",
+        "version": "v0.19.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/sys@v0.19.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/term",
+        "version": "v0.19.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/term@v0.19.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/text",
+        "version": "v0.14.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/text@v0.14.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/time",
+        "version": "v0.5.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/time@v0.5.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/tools",
+        "version": "v0.19.0",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/tools@v0.19.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/xerrors",
+        "version": "v0.0.0-20231012003039-104605ab7028",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/xerrors@v0.0.0-20231012003039-104605ab7028"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "google.golang.org/api",
+        "version": "v0.172.0",
+        "identifiers": {
+          "purl": "pkg:golang/google.golang.org/api@v0.172.0"
+        },
+        "score": 7.1,
+        "details": {
+          "activity": 7.1,
+          "activity_repo": 7,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "google.golang.org/genproto/googleapis/api",
+        "version": "v0.0.0-20240325203815-454cdb8f5daa",
+        "identifiers": {
+          "purl": "pkg:golang/google.golang.org/genproto/googleapis@v0.0.0-20240325203815-454cdb8f5daa#api"
+        },
+        "score": 6.2,
+        "details": {
+          "activity": 6.2,
+          "activity_repo": 5.4,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 8
+        }
+      },
+      {
+        "package": "google.golang.org/genproto/googleapis/rpc",
+        "version": "v0.0.0-20240325203815-454cdb8f5daa",
+        "identifiers": {
+          "purl": "pkg:golang/google.golang.org/genproto/googleapis@v0.0.0-20240325203815-454cdb8f5daa#rpc"
+        },
+        "score": 6.2,
+        "details": {
+          "activity": 6.2,
+          "activity_repo": 5.4,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "google.golang.org/grpc",
+        "version": "v1.63.2",
+        "identifiers": {
+          "purl": "pkg:golang/google.golang.org/grpc@v1.63.2"
+        },
+        "score": 8.1,
+        "details": {
+          "activity": 8.1,
+          "activity_repo": 8.6,
+          "activity_user": 7.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "google.golang.org/protobuf",
+        "version": "v1.33.0",
+        "identifiers": {
+          "purl": "pkg:golang/google.golang.org/protobuf@v1.33.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "gopkg.in/go-jose/go-jose.v2",
+        "version": "v2.6.3",
+        "identifiers": {
+          "purl": "pkg:golang/gopkg.in/go-jose/go-jose.v2@v2.6.3"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "gopkg.in/inf.v0",
+        "version": "v0.9.1",
+        "identifiers": {
+          "purl": "pkg:golang/gopkg.in/inf.v0@v0.9.1"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "gopkg.in/ini.v1",
+        "version": "v1.67.0",
+        "identifiers": {
+          "purl": "pkg:golang/gopkg.in/ini.v1@v1.67.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "gopkg.in/warnings.v0",
+        "version": "v0.1.2",
+        "identifiers": {
+          "purl": "pkg:golang/gopkg.in/warnings.v0@v0.1.2"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "gopkg.in/yaml.v2",
+        "version": "v2.4.0",
+        "identifiers": {
+          "purl": "pkg:golang/gopkg.in/yaml.v2@v2.4.0"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "gopkg.in/yaml.v3",
+        "version": "v3.0.1",
+        "identifiers": {
+          "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.1"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "k8s.io/api",
+        "version": "v0.29.3",
+        "identifiers": {
+          "purl": "pkg:golang/k8s.io/api@v0.29.3"
+        },
+        "score": 6.9,
+        "details": {
+          "activity": 6.9,
+          "activity_repo": 5.9,
+          "activity_user": 7.8,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "k8s.io/apimachinery",
+        "version": "v0.29.3",
+        "identifiers": {
+          "purl": "pkg:golang/k8s.io/apimachinery@v0.29.3"
+        },
+        "score": 6.9,
+        "details": {
+          "activity": 6.9,
+          "activity_repo": 6.1,
+          "activity_user": 7.6,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "k8s.io/client-go",
+        "version": "v0.29.3",
+        "identifiers": {
+          "purl": "pkg:golang/k8s.io/client-go@v0.29.3"
+        },
+        "score": 7.6,
+        "details": {
+          "activity": 7.6,
+          "activity_repo": 7.9,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "k8s.io/klog/v2",
+        "version": "v2.120.1",
+        "identifiers": {
+          "purl": "pkg:golang/k8s.io/klog/v2@v2.120.1"
+        },
+        "score": 6.1,
+        "details": {
+          "activity": 6.1,
+          "activity_repo": 5.6,
+          "activity_user": 6.5,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "k8s.io/kube-openapi",
+        "version": "v0.0.0-20231010175941-2dd684a91f00",
+        "identifiers": {
+          "purl": "pkg:golang/k8s.io/kube-openapi@v0.0.0-20231010175941-2dd684a91f00"
+        },
+        "score": 6.3,
+        "details": {
+          "activity": 6.3,
+          "activity_repo": 5.4,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "k8s.io/utils",
+        "version": "v0.0.0-20230726121419-3b25d923346b",
+        "identifiers": {
+          "purl": "pkg:golang/k8s.io/utils@v0.0.0-20230726121419-3b25d923346b"
+        },
+        "score": 6.6,
+        "details": {
+          "activity": 6.6,
+          "activity_repo": 5.4,
+          "activity_user": 7.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "sigs.k8s.io/json",
+        "version": "v0.0.0-20221116044647-bc3834ca7abd",
+        "identifiers": {
+          "purl": "pkg:golang/sigs.k8s.io/json@v0.0.0-20221116044647-bc3834ca7abd"
+        },
+        "score": 5.2,
+        "details": {
+          "activity": 5.2,
+          "activity_repo": 3.4,
+          "activity_user": 6.9,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "sigs.k8s.io/release-sdk",
+        "version": "v0.11.0",
+        "identifiers": {
+          "purl": "pkg:golang/sigs.k8s.io/release-sdk@v0.11.0"
+        },
+        "score": 5.6,
+        "details": {
+          "activity": 5.6,
+          "activity_repo": 4,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "sigs.k8s.io/release-utils",
+        "version": "v0.8.1",
+        "identifiers": {
+          "purl": "pkg:golang/sigs.k8s.io/release-utils@v0.8.1"
+        },
+        "score": 5.6,
+        "details": {
+          "activity": 5.6,
+          "activity_repo": 3.4,
+          "activity_user": 7.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "sigs.k8s.io/structured-merge-diff/v4",
+        "version": "v4.4.1",
+        "identifiers": {
+          "purl": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.4.1"
+        },
+        "score": 5.9,
+        "details": {
+          "activity": 5.9,
+          "activity_repo": 4.5,
+          "activity_user": 7.2,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "sigs.k8s.io/yaml",
+        "version": "v1.4.0",
+        "identifiers": {
+          "purl": "pkg:golang/sigs.k8s.io/yaml@v1.4.0"
+        },
+        "score": 5.8,
+        "details": {
+          "activity": 5.8,
+          "activity_repo": 5,
+          "activity_user": 6.7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      }
+    ]
+  }
+}

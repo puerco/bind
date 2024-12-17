@@ -56,7 +56,16 @@ func addInspect(parentCmd *cobra.Command) {
 				return fmt.Errorf("parsing bundle: %w", err)
 			}
 
-			fmt.Printf("Media Type: %s", b.MediaType)
+			mediatype, errPred := tool.ExtractPredicateType(b)
+			mtMsg := mediatype
+			if errPred != nil {
+				mtMsg = fmt.Sprintf("error fetching media type: %s", errPred.Error())
+			}
+
+			fmt.Printf("\nBundle information:\n\n")
+			fmt.Printf("Media Type:     %s\n", b.MediaType)
+			fmt.Printf("Predicate Type: %s\n\n", mtMsg)
+
 			return nil
 		},
 	}

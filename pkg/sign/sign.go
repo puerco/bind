@@ -7,10 +7,21 @@ import (
 	"crypto/rand"
 	"crypto/sha256"
 	"crypto/x509"
+	"flag"
 	"fmt"
+	"log"
+	"os"
+	"time"
 
 	fulcioapi "github.com/sigstore/fulcio/pkg/api"
+	"github.com/sigstore/sigstore-go/pkg/bundle"
+	"github.com/sigstore/sigstore-go/pkg/root"
+	ssign "github.com/sigstore/sigstore-go/pkg/sign"
+	"github.com/sigstore/sigstore-go/pkg/tuf"
+	"github.com/sigstore/sigstore-go/pkg/util"
 	"github.com/sigstore/sigstore/pkg/oauthflow"
+	"github.com/theupdateframework/go-tuf/v2/metadata/fetcher"
+	"google.golang.org/protobuf/encoding/protojson"
 
 	"github.com/sigstore/cosign/v2/pkg/cosign"
 	rekor "github.com/sigstore/rekor/pkg/client"
@@ -18,6 +29,118 @@ import (
 	"github.com/sigstore/sigstore/pkg/cryptoutils"
 	"github.com/sigstore/sigstore/pkg/signature"
 )
+
+func Bind() {
+
+	var content ssign.Content
+
+	data, err := os.ReadFile(flag.Arg(0))
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	content = &ssign.DSSEData{
+		Data:        data,
+		PayloadType: bundle.IntotoMediaType,
+	}
+
+	keypair, err := ssign.NewEphemeralKeypair(nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+	publicKeyPem, err := keypair.GetPublicKeyPem()
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("Using public key:\n\n%s\n\n", publicKeyPem)
+
+	opts := ssign.BundleOptions{}
+
+	// Get trusted_root.json
+	fetcher := fetcher.DefaultFetcher{}
+	fetcher.SetHTTPUserAgent(util.ConstructUserAgent())
+
+	tufOptions := &tuf.Options{
+		Root:              tuf.StagingRoot(),
+		RepositoryBaseURL: tuf.StagingMirror,
+		Fetcher:           &fetcher,
+	}
+	tufClient, err := tuf.New(tufOptions)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	trustedRootJSON, err := tufClient.GetTarget("trusted_root.json")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	trustedRoot, err := root.NewTrustedRootFromJSON(trustedRootJSON)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	opts.TrustedRoot = trustedRoot
+
+	if *idToken != "" {
+		fulcioOpts := &ssign.FulcioOptions{
+			BaseURL: "https://fulcio.sigstage.dev",
+			Timeout: time.Duration(30 * time.Second),
+			Retries: 1,
+		}
+		opts.CertificateProvider = ssign.NewFulcio(fulcioOpts)
+		opts.CertificateProviderOptions = &ssign.CertificateProviderOptions{
+			IDToken: *idToken,
+		}
+	}
+
+	// Add timestamp
+	tsaOpts := &ssign.TimestampAuthorityOptions{
+		URL:     "https://timestamp.githubapp.com/api/v1/timestamp",
+		Timeout: time.Duration(30 * time.Second),
+		Retries: 1,
+	}
+	opts.TimestampAuthorities = append(opts.TimestampAuthorities, ssign.NewTimestampAuthority(tsaOpts))
+
+	// staging TUF repo doesn't have accessible timestamp authorities
+	opts.TrustedRoot = nil
+
+	/// Add signature transaction to rekor
+	rekorOpts := &ssign.RekorOptions{
+		// BaseURL: "https://rekor.sigstage.dev",
+		BaseURL: "https://rekor.sigstore.dev",
+		Timeout: time.Duration(90 * time.Second),
+		Retries: 1,
+	}
+	opts.TransparencyLogs = append(opts.TransparencyLogs, ssign.NewRekor(rekorOpts))
+
+	bundle, err := ssign.Bundle(content, keypair, opts)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	bundleJSON, err := protojson.Marshal(bundle)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Println(string(bundleJSON))
+}
+
+func getOIDCToken() (*oauthflow.Token, error) {
+	issuerURL := "https://oauth2.sigstore.dev/auth"
+	tok, err := oauthflow.OIDConnect(
+		issuerURL, // issuer
+		"sigstore",
+		"",                                 // FIXME: oidc.ClientSecre
+		"http://localhost:0/auth/callback", // oidc.RedirectURL, // http://localhost:0/auth/callback
+		oauthflow.NewClientCredentialsFlow(issuerURL),
+	)
+	if err != nil {
+		return nil, err
+	}
+	return tok, nil
+}
 
 // internal/git
 
