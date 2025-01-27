@@ -1,0 +1,50 @@
+{
+  "_type": "https://in-toto.io/Statement/v0.1",
+  "predicateType": "http://trustypkg.dev",
+  "subject": [
+    {"sha256":"62f2924a0bc60cc14ddb236044486c221766a0f86480446bc36f3d7824d51aa6"}
+  ],
+  "predicate": {
+    "metadata": {
+      "date": "2024-04-28T23:32:46.132398443-06:00",
+      "package": {
+        "package": "",
+        "version": ""
+      }
+    },
+    "packages": [
+      {
+        "package": "github.com/sirupsen/logrus",
+        "version": "v1.9.0",
+        "identifiers": {
+          "purl": "pkg:golang/github.com/sirupsen/logrus@v1.9.0"
+        },
+        "score": 7,
+        "details": {
+          "activity": 7,
+          "activity_repo": 6.9,
+          "activity_user": 7,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      },
+      {
+        "package": "golang.org/x/sys",
+        "version": "v0.0.0-20220715151400-c0bba94af5f8",
+        "identifiers": {
+          "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20220715151400-c0bba94af5f8"
+        },
+        "score": 0,
+        "details": {
+          "activity": 0,
+          "activity_repo": 0,
+          "activity_user": 0,
+          "malicious": false,
+          "provenance": 10,
+          "typosquatting": 10
+        }
+      }
+    ]
+  }
+}

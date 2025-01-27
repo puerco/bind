@@ -2,13 +2,13 @@ package cmd
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"io"
 	"os"
 
 	"github.com/puerco/bind/pkg/bundle"
 	"github.com/spf13/cobra"
+	"google.golang.org/protobuf/encoding/protojson"
 )
 
 type attestationOptions struct {
@@ -34,9 +34,9 @@ func (o *attestationOptions) AddFlags(cmd *cobra.Command) {
 func addAttestation(parentCmd *cobra.Command) {
 	opts := attestationOptions{}
 	attCmd := &cobra.Command{
-		Short:             fmt.Sprintf("%s attestation: generates a trusty attestation", appname),
+		Short:             fmt.Sprintf("%s attestation: binds an attestation into a signed bundle", appname),
 		Use:               "attestation",
-		Example:           fmt.Sprintf("%s attestation repository/path/ ", appname),
+		Example:           fmt.Sprintf("%s attestation file.intoto.json ", appname),
 		SilenceUsage:      false,
 		SilenceErrors:     true,
 		PersistentPreRunE: initLogging,
@@ -64,12 +64,15 @@ func addAttestation(parentCmd *cobra.Command) {
 			}
 
 			o := os.Stdout
-			enc := json.NewEncoder(o)
-			enc.SetIndent("", "  ")
-			enc.SetEscapeHTML(false)
 
-			if err := enc.Encode(bundle); err != nil {
-				return fmt.Errorf("encoding bundle: %w", err)
+			// enc := json.NewEncoder(o)
+			data, err := protojson.Marshal(bundle)
+			if err != nil {
+				return fmt.Errorf("marshaling bundle: %w", err)
+			}
+
+			if _, err := o.Write(data); err != nil {
+				return fmt.Errorf("writing bundle data: %w", err)
 			}
 
 			return nil

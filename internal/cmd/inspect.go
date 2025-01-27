@@ -56,7 +56,16 @@ func addInspect(parentCmd *cobra.Command) {
 				return fmt.Errorf("parsing bundle: %w", err)
 			}
 
-			fmt.Printf("Media Type: %s", b.MediaType)
+			att, err := tool.ExtractAttestation(b)
+			if err != nil {
+				return fmt.Errorf("unable to extract attestation from bundle")
+			}
+
+			fmt.Println("\nBundle Details:")
+			fmt.Println("---------------")
+			fmt.Printf("Bundle media type: %s\n", b.MediaType)
+			fmt.Printf("Attestation predicate: %s\n", att.PredicateType)
+			fmt.Println("")
 			return nil
 		},
 	}

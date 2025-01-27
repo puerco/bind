@@ -2,18 +2,24 @@ module github.com/puerco/bind
 
 go 1.22.0
 
+replace github.com/sigstore/protobuf-specs => ../sigstore/protobuf-specs/
+
 require (
+	github.com/google/go-github/v60 v60.0.0
 	github.com/in-toto/in-toto-golang v0.9.0
 	github.com/pkg/errors v0.9.1
 	github.com/secure-systems-lab/go-securesystemslib v0.8.0
 	github.com/sigstore/cosign v1.13.6
 	github.com/sigstore/cosign/v2 v2.2.4
 	github.com/sigstore/fulcio v1.4.5
-	github.com/sigstore/protobuf-specs v0.3.2
+	github.com/sigstore/protobuf-specs v0.3.3-0.20240531071231-3d01ad8fa60b
 	github.com/sigstore/rekor v1.3.6
 	github.com/sigstore/sigstore v1.8.4
+	github.com/sigstore/sigstore-go v0.3.1-0.20240424145224-c1df1ba603a2
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.0
+	github.com/stretchr/testify v1.9.0
+	golang.org/x/oauth2 v0.20.0
 	sigs.k8s.io/release-utils v0.8.2
 )
 
@@ -30,6 +36,7 @@ require (
 	github.com/Azure/go-autorest/logger v0.2.1 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
+	github.com/ProtonMail/go-crypto v1.0.0 // indirect
 	github.com/ThalesIgnite/crypto11 v1.2.5 // indirect
 	github.com/alibabacloud-go/alibabacloud-gateway-spi v0.0.4 // indirect
 	github.com/alibabacloud-go/cr-20160607 v1.0.1 // indirect
@@ -134,6 +141,7 @@ require (
 	github.com/opencontainers/image-spec v1.1.0 // indirect
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/pelletier/go-toml/v2 v2.1.0 // indirect
+	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/sagikazarmark/locafero v0.4.0 // indirect
 	github.com/sagikazarmark/slog-shim v0.1.0 // indirect
 	github.com/sassoftware/relic v7.2.1+incompatible // indirect
@@ -151,6 +159,7 @@ require (
 	github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d // indirect
 	github.com/thales-e-security/pool v0.0.2 // indirect
 	github.com/theupdateframework/go-tuf v0.7.0 // indirect
+	github.com/theupdateframework/go-tuf/v2 v2.0.0-20240223092044-1e7978e83f63 // indirect
 	github.com/titanous/rocacheck v0.0.0-20171023193734-afe73141d399 // indirect
 	github.com/tjfoc/gmsm v1.4.1 // indirect
 	github.com/transparency-dev/merkle v0.0.2 // indirect
@@ -169,7 +178,6 @@ require (
 	golang.org/x/exp v0.0.0-20231108232855-2478ac86f678 // indirect
 	golang.org/x/mod v0.17.0 // indirect
 	golang.org/x/net v0.25.0 // indirect
-	golang.org/x/oauth2 v0.20.0 // indirect
 	golang.org/x/sync v0.7.0 // indirect
 	golang.org/x/sys v0.20.0 // indirect
 	golang.org/x/term v0.20.0 // indirect
@@ -187,12 +195,12 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/api v0.28.3 // indirect
-	k8s.io/apimachinery v0.28.3 // indirect
+	k8s.io/apimachinery v0.29.4 // indirect
 	k8s.io/client-go v0.28.3 // indirect
 	k8s.io/klog/v2 v2.120.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00 // indirect
 	k8s.io/utils v0.0.0-20240502163921-fe8a2dddb1d0 // indirect
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.3.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
 	sigs.k8s.io/yaml v1.4.0 // indirect
 )

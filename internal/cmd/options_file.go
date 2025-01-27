@@ -102,7 +102,7 @@ func (o *bundleOptions) ReadBundle() ([]byte, error) {
 		var err error
 		f, err = os.Open(o.Path)
 		if err != nil {
-			return nil, fmt.Errorf("opening bundle file: %w")
+			return nil, fmt.Errorf("opening bundle file: %w", err)
 		}
 		defer f.(*os.File).Close()
 	}

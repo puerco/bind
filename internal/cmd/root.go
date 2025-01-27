@@ -51,6 +51,7 @@ func init() {
 	addExtract(rootCmd)
 	addInspect(rootCmd)
 	addVerify(rootCmd)
+	addPush(rootCmd)
 	rootCmd.AddCommand(version.WithFont("doom"))
 }
 

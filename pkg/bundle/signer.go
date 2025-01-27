@@ -19,6 +19,7 @@ import (
 	protodsse "github.com/sigstore/protobuf-specs/gen/pb-go/dsse"
 	protorekor "github.com/sigstore/protobuf-specs/gen/pb-go/rekor/v1"
 	"github.com/sigstore/rekor/pkg/generated/models"
+	sgbundle "github.com/sigstore/sigstore-go/pkg/bundle"
 	dsseSigner "github.com/sigstore/sigstore/pkg/signature/dsse"
 	signatureoptions "github.com/sigstore/sigstore/pkg/signature/options"
 )
@@ -117,9 +118,13 @@ func (s *Signer) SignAndBind(ctx context.Context, attData []byte) (*protobundle.
 	if err := json.Unmarshal(canonBody, rekord); err != nil {
 		return nil, fmt.Errorf("unmarshalling rekord: %w", err)
 	}
-
+	mt, err := sgbundle.MediaTypeString("0.3")
+	if err != nil {
+		return nil, fmt.Errorf("building mediatype string: %s", err)
+	}
 	bundle := &protobundle.Bundle{
-		MediaType: "application/vnd.dev.sigstore.bundle+json;version=0.2",
+		// MediaType: "application/vnd.dev.sigstore.bundle+json;version=0.2",
+		MediaType: mt,
 		VerificationMaterial: &protobundle.VerificationMaterial{
 			Content: &protobundle.VerificationMaterial_X509CertificateChain{
 				X509CertificateChain: &protocommon.X509CertificateChain{
